@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Home Alone</title>
+    <title>{{ page.title }}</title>
     <style>
         body {  
             background-image: url('assets/fire2.jpg');
@@ -14,25 +14,7 @@
         </style>
   </head>
   <body>
-    <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>Home Alone</title>
-  </head>
-  <body>
-    <h1>HELLO ALEV!</h1>
-    5
-  </body>
-</html>
-
-    <nav>
-    <a href="/" style="color: red;">
-        Home
-      </a>
-      <a href="/about.html" >
-        About
-      </a>
-  </nav>
+    {{ content }}
+    {% include navigation.html %}
   </body>
 </html>

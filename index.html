@@ -1,10 +1,17 @@
+---
+# front matter tells Jekyll to process Liquid
+my_number: 5
+title: Home Alone
+layout: default
+---
 <!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Music Master - Alev Blaster  </title>
+    <title>{{ page.title }}</title>
   </head>
-  <body style="background-color: #FF474C;">
-    <h1>Hello Alev! Changes will come soon ;) </h1>
+  <body>
+    <h1>{{ "HELLO ALEV!"}}</h1>
+    {{ page.my_number }}
   </body>
 </html>
