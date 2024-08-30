@@ -1,5 +1,9 @@
+title: Home Alone
 baseurl: ""
 url: ""
+
+repository: "MusicBlaster/radyoalev"
+
 
 plugins:
   - jekyll-feed
