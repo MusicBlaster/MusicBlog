@@ -3,15 +3,18 @@
   <head>
     <meta charset="utf-8">
     <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="/assets/css/styles.css">
     <style>
         body {  
-            background-image: url('assets/fire2.jpg');
+            background-image: url('assets/images/fire2.jpg');
             background-repeat: no-repeat;
             background-attachment: fixed; 
             background-size: cover;
             background-size: 100% 100%;
-        }
+        }      
         </style>
+    {% feed_meta %}
+    {% seo %}
   </head>
   <body>
     {{ content }}
