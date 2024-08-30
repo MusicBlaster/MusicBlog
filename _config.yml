@@ -1,6 +1,6 @@
 title: Home
-baseurl: ""
-url: ""
+website: "https://musicblaster.github.io"
+basewebsite: /radyoalev
 
 plugins:
   - jekyll-feed
