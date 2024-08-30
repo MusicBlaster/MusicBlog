@@ -1,7 +1,6 @@
 <nav>
-  {% for item in site.data.navigation %}
-    <a href="{{ item.link }}" {% if page.url == item.link %} style="color: red; margin: 50px; font-size: 20px; "{% endif %}>
-      {{ item.name }}
-    </a>
-  {% endfor %}
+  <a href="/">Home</a>
+  <a href="/about.html">About</a>
+  <a href="/blog.html">Blog</a>
+
 </nav>

@@ -1,6 +1,6 @@
 title: Home Alone
 baseurl: ""
-url: "https://musicblaster.github.io"
+url: ""
 
 plugins:
   - jekyll-feed
