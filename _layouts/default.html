@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="/assets/css/styles.css">
     <style>
         body {  
             background-image: url('assets/images/fire2.jpg');
@@ -16,13 +17,11 @@
     {% seo %}
   </head>
   <body>
-    <center>
-    <font size="10">
-      <p style="margin-bottom: 10%">
+    <div class="intro">
       {% include navigation.html %}
-    </pstyle>
-  </font>  
-</center>
+    </div>
+    <h1 class="content">
     {{ content }}
+    </h1>
   </body>
 </html>
