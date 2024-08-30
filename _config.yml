@@ -1,5 +1,5 @@
-baseurl: "/radyoalev"
-url: "https://musicblaster.github.io"
+baseurl: ""
+url: ""
 
 plugins:
   - jekyll-feed
