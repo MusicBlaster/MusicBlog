@@ -3,6 +3,8 @@
 title: Home
 layout: default
 ---
+
+<h1>Newest hits</h1>
 <!DOCTYPE html>
 <html>
   <head>
@@ -10,7 +12,12 @@ layout: default
     <title>{{ page.title }}</title>
   </head>
   <body>
-    <h1>{{ "HELLO ALEV! More changes coming soon !"}}</h1>
-    {{ page.my_number }}
+    <ul>
+      {% for post in site.posts limit:1 %}
+        <li>
+          {{ post.content }}
+        </li>
+      {% endfor %}
+    </ul>
   </body>
 </html>
