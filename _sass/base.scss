@@ -12,3 +12,8 @@
     font-size: 100%;
     color: rgb(59, 9, 8);
 }
+.site-title::before {
+	content: url("/assets/images/mstile-150x150.png");
+  text-align: center;
+  margin-left: 100px;
+}

@@ -2,6 +2,7 @@ title: Home
 website: "https://musicblaster.github.io"
 basewebsite: /radyoalev
 
+theme: minima
 plugins:
   - jekyll-feed
   - jekyll-sitemap
